@@ -1,4 +1,4 @@
-import CardBio from "@/components/cardBio";
+import CardBio from "@/components/card-bio";
 import Link from "next/link";
 
 export default function Home() {
@@ -6,15 +6,15 @@ export default function Home() {
     <div className="flex flex-col gap-[36px]">
       <h1 className="font-bold text-[32px]">Heru Khoeruman</h1>
       <p>
-        Saya Heru, seorang{" "}
-        <span className="font-bold">Full Stack Developer di PT. XX</span>, dan
-        saya senang dapat berbagi karya dan pengalaman saya dengan Anda di sini.
+        Hi! I'm Heru, a{" "}
+        <span className="font-bold">Full Stack Developer at PT. XX</span>, and
+        I'm delighted to be able to share my work and experiences with you here.
       </p>
       <CardBio />
       <p>
-        Sebagai seorang full stack developer, saya telah mengembangkan berbagai
-        aplikasi dan platform yang melibatkan teknologi seperti JavaScript,
-        NodeJs, dan React.
+        As a full stack developer, I have developed various applications
+        involving technologies such as JavaScript, TypeScript, Node.js, MongoDB,
+        and Next.js/React.
       </p>
       <div className="inline-flex gap-[11px] underline underline-offset-2">
         <Link href={"/"}>Github</Link>
