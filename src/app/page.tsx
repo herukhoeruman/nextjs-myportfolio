@@ -14,9 +14,7 @@ export default function Home() {
       <p>
         Sebagai seorang full stack developer, saya telah mengembangkan berbagai
         aplikasi dan platform yang melibatkan teknologi seperti JavaScript,
-        NodeJs, dan React. Saya selalu mencari cara untuk meningkatkan
-        keterampilan saya dan mengeksplorasi teknologi baru yang dapat membantu
-        saya menciptakan solusi yang lebih baik.
+        NodeJs, dan React.
       </p>
       <div className="inline-flex gap-[11px] underline underline-offset-2">
         <Link href={"/"}>Github</Link>

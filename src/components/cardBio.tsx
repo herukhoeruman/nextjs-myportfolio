@@ -11,9 +11,9 @@ const Item = ({}: ItemProps) => {
       <Image
         alt="icon"
         src={"/image/rocket.svg"}
-        width={14}
-        height={14}
-        className="rounded-full"
+        width={15}
+        height={15}
+        // className="rounded-full"
       />
       <span className="font-bold">140</span>
       <span>Project selesai</span>
@@ -27,8 +27,8 @@ function CardBio() {
       <Image
         alt="avatar"
         src={"/image/luffy.jpg"}
-        width={80}
-        height={80}
+        width={100}
+        height={100}
         className="rounded-full"
       />
       <div className="flex flex-col">
