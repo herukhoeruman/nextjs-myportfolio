@@ -14,7 +14,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Heru Khoeruman",
+  title: "Simple Portfolio",
   description: "simple portfolio",
 };
 
@@ -28,7 +28,7 @@ export default function RootLayout({
       <body>
         <div
           className={clsx(
-            "flex flex-row w-[1000px]  mt-[150px] mx-auto",
+            "flex flex-row w-[1000px] mt-[130px] mx-auto",
             poppins.className
           )}
         >

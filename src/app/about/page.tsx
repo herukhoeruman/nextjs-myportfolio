@@ -1,14 +1,20 @@
 import React from "react";
+import Link from "next/link";
 
 const page = () => {
   return (
     <div className="flex flex-col gap-6">
       <h1 className="font-bold text-[48px]">About Me</h1>
       <p>
-        Hi! I'm Heru, a{" "}
-        <span className="font-bold">Full Stack Developer at PT. XX</span>, and
-        I'm delighted to be able to share my work and experiences with you here.
-        Saya Heru,
+        I'm Heru, a <span className="font-bold">Full Stack Developer at </span>
+        <Link
+          href={"https://gsp.co.id"}
+          className="underline underline-offset-2 font-bold"
+        >
+          {" "}
+          PT. Gerbang Sinergi Prima
+        </Link>{" "}
+        , and I'm very excited to share my work experiences with you here.
       </p>
       <div className="border my-4"></div>
       <p>

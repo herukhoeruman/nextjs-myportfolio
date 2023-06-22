@@ -17,8 +17,8 @@ const BlogItem = () => {
           Blog Title
         </Link>
         <div className="inline-flex gap-[32px] text-sm">
-          <span>1 day ago</span>
-          <span>1x seen</span>
+          <span>2 days ago</span>
+          <span>1,234 views</span>
         </div>
       </div>
     </div>

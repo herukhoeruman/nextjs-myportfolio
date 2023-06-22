@@ -4,11 +4,17 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex flex-col gap-[36px]">
-      <h1 className="font-bold text-[48px]">Heru Khoeruman</h1>
+      <h1 className="font-bold text-[48px]">Hi!</h1>
       <p>
-        Hi! I'm Heru, a{" "}
-        <span className="font-bold">Full Stack Developer at PT. XX</span>, and
-        I'm delighted to be able to share my work and experiences with you here.
+        I'm Heru, a <span className="font-bold">Full Stack Developer at </span>
+        <Link
+          href={"https://gsp.co.id"}
+          className="underline underline-offset-2 font-bold"
+        >
+          {" "}
+          PT. Gerbang Sinergi Prima
+        </Link>{" "}
+        , and I'm very excited to share my work experiences with you here.
       </p>
       <CardBio />
       <p>
@@ -17,8 +23,8 @@ export default function Home() {
         and Next.js/React.
       </p>
       <div className="inline-flex gap-[11px] underline underline-offset-2">
-        <Link href={"/"}>Github</Link>
-        <Link href={"/"}>LinkedIn</Link>
+        <Link href={"https://www.github.com"}>Github</Link>
+        <Link href={"https://www.linkedin.com"}>LinkedIn</Link>
       </div>
     </div>
   );
