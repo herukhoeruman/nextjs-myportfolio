@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex flex-col gap-[36px]">
-      <h1 className="font-bold text-[32px]">Heru Khoeruman</h1>
+      <h1 className="font-bold text-[48px]">Heru Khoeruman</h1>
       <p>
         Hi! I'm Heru, a{" "}
         <span className="font-bold">Full Stack Developer at PT. XX</span>, and

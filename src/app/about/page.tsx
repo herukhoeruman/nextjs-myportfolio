@@ -3,7 +3,7 @@ import React from "react";
 const page = () => {
   return (
     <div className="flex flex-col gap-6">
-      <h1 className="font-bold text-[32px]">About Me</h1>
+      <h1 className="font-bold text-[48px]">About Me</h1>
       <p>
         Hi! I'm Heru, a{" "}
         <span className="font-bold">Full Stack Developer at PT. XX</span>, and

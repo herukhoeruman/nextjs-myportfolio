@@ -25,7 +25,7 @@ const Item = ({ icon = "", value = "value", lable = "lable" }: ItemProps) => {
 
 function CardBio() {
   return (
-    <div className="inline-flex gap-[27px] justify-center items-center rounded-lg border border-zinc-200 w-[315px] h-[134px]">
+    <div className="inline-flex gap-[27px] justify-center items-center rounded-lg border border-zinc-200 w-[350px] h-[134px]">
       <Image
         alt="avatar"
         src={"/image/luffy.jpg"}
@@ -34,9 +34,9 @@ function CardBio() {
         className="rounded-full"
       />
       <div className="flex flex-col">
-        <Item icon="/image/rocket.svg" value="25" lable="projects finished" />
-        <Item icon="/image/github.svg" value="12" lable="stars on my repo" />
-        <Item icon="/image/statistics.svg" value="100" lable="client" />
+        <Item icon="/image/rocket.svg" value="11" lable="projects finished" />
+        <Item icon="/image/github.svg" value="140" lable="stars on my repo" />
+        <Item icon="/image/statistics.svg" value="10" lable="client" />
       </div>
     </div>
   );
