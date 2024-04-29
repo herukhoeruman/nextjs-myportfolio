@@ -3,10 +3,10 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-[36px]">
+    <div className="flex flex-col gap-[36px] pb-8">
       <h1 className="font-bold text-[48px]">Hi!</h1>
       <p>
-        I'm Heru, a <span className="font-bold">Full Stack Developer at </span>
+        I'm Heru, a <span className="font-bold">Software Engineer at</span>
         <Link
           href={"https://gsp.co.id"}
           className="underline underline-offset-2 font-bold"
@@ -18,9 +18,10 @@ export default function Home() {
       </p>
       <CardBio />
       <p>
-        As a full stack developer, I have developed various applications
-        involving technologies such as JavaScript, TypeScript, Node.js, MongoDB,
-        and Next.js/React.
+        As a software engineer, I have a passion for building software that
+        solves real-world problems. I have experience in developing web
+        applications using modern technologies, such as React, Next.js, Svelte,
+        Node.js, Express.js, Hono.js and TypeScript.
       </p>
       <div className="inline-flex gap-[11px] underline underline-offset-2">
         <Link href={"https://www.github.com"}>Github</Link>

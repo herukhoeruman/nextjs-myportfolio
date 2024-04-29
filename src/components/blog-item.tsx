@@ -9,7 +9,7 @@ const BlogItem = () => {
         src={"/image/photo.png"}
         width={80}
         height={80}
-        className="rounded-lg"
+        className="rounded-lg w-[80px] h-[80px]"
         alt="Blog Image"
       />
       <div className="flex flex-col justify-between ml-[32px]">

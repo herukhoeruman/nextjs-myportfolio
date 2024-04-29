@@ -6,7 +6,7 @@ const page = () => {
     <div className="flex flex-col gap-6">
       <h1 className="font-bold text-[48px]">About Me</h1>
       <p>
-        I'm Heru, a <span className="font-bold">Full Stack Developer at </span>
+        I'm Heru, a <span className="font-bold">Software Engineer at </span>
         <Link
           href={"https://gsp.co.id"}
           className="underline underline-offset-2 font-bold"
@@ -18,23 +18,18 @@ const page = () => {
       </p>
       <div className="border my-4"></div>
       <p>
-        As a full stack developer, I have developed various applications
-        involving technologies such as JavaScript, TypeScript, Node.js, MongoDB,
-        and Next.js/React.
+        As a software engineer, I have a passion for building software that
+        solves real-world problems. I have experience in developing web
+        applications using modern technologies, such as React, Node.js, and
+        TypeScript. I also have experience in building RESTful APIs and working
+        with databases like PostgreSQL and MongoDB.
       </p>
       <p>
-        I believe that software development is not just about writing code, but
-        also about understanding user needs and ensuring an optimal user
-        experience. With that in mind, I always strive to understand the
-        business context that supports the products I create and optimize
-        solutions that can have a positive impact on both the business and
-        users. I am enthusiastic about sharing my experience in software
-        development and providing innovative technological solutions.
-      </p>
-      <p>
-        Please explore my portfolio and feel free to contact me if you're
-        interested in collaborating or discussing further about your projects.
-        Thank you for visiting my page!
+        I'm always eager to learn new things and improve my skills. I'm looking
+        forward to sharing my knowledge and experiences with you. Feel free to
+        reach out to me if you have any questions or want to collaborate on a
+        project. I'm always open to new opportunities and challenges. Let's
+        connect and build something amazing together!.
       </p>
     </div>
   );
